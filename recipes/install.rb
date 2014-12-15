@@ -44,7 +44,7 @@ when 'debian', 'ubuntu'
    uri 'http://repos.mesosphere.io'
    distribution  node['lsb']['codename']
    components ['main']
-   keyserver keyserver.ubuntu.com
+   keyserver 'keyserver.ubuntu.com'
    key "E56151BF"
  end
 
